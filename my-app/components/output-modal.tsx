@@ -133,7 +133,7 @@ export function OutputModal({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="flex max-h-[90vh] max-w-2xl flex-col">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <FileText className="h-5 w-5 text-primary" />
@@ -161,7 +161,7 @@ export function OutputModal({
             <Textarea
               readOnly
               value={generatePendingText()}
-              className="min-h-[250px] font-mono text-sm"
+              className="min-h-[250px] max-h-[60vh] w-full resize-none overflow-y-auto font-mono text-sm"
             />
           </TabsContent>
 
@@ -169,7 +169,7 @@ export function OutputModal({
             <Textarea
               readOnly
               value={generateDeliveredText()}
-              className="min-h-[250px] font-mono text-sm"
+              className="min-h-[250px] max-h-[60vh] w-full resize-none overflow-y-auto font-mono text-sm"
             />
           </TabsContent>
 
@@ -177,7 +177,7 @@ export function OutputModal({
             <Textarea
               readOnly
               value={generateCompleteText()}
-              className="min-h-[250px] font-mono text-sm"
+              className="min-h-[250px] max-h-[60vh] w-full resize-none overflow-y-auto font-mono text-sm"
             />
           </TabsContent>
         </Tabs>
