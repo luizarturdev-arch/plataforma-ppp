@@ -119,7 +119,7 @@ export const benefits: Benefit[] = [
       "Comprovante de Residência",
       "INCRA",
       "ITR",
-      "Escritura de Pública",
+      "Escritura Pública",
       "Certidão de Casamento do Pai",
       "Certidões de Nascimento dos Irmãos",
       "Certidão de Alistamento Militar da Parte Autora",
