@@ -318,6 +318,26 @@ export const benefits: Benefit[] = [
       "Laudo Médico (atestando a incapacidade física e mental do curatelado)",
       "Termo de Anuência (DOS PAIS)"
     ],
+  },
+  {
+    id: "ação-trabalhista",
+    name: "Ação Trabalhista",
+    documents: [
+      "RG e CPF (AUTOR)",
+      "Certidão de Nascimento ou Casamento (AUTOR)",
+      "Carteira de Trabalho Física ou Digital (AUTOR)",
+      "Comprovante de Residência",
+      "Dados do Reclamado (Nome, CPF, CNPJ, Endereço, etc.)",
+      "Termo de Recisão",
+      "Extrato FGTS",
+      "Provas do Vínculo Trabalhista",
+      "Comprovante de Pagamentos (Extratos Bancários, Recibos, etc.)",
+      "Farda",
+      "Fotos Trabalhando ou em Confraternização da Empresa",
+      "Prints",
+      "Três Testemunhas (RG, CPF, Comprovante de Residência)",
+      "Provas do Ocorrido (Fotos, Vídeos, Laudos Médicos, etc.)",
+    ]
   }
 ];
 
@@ -326,7 +346,11 @@ export const ruralProofs: RuralProof[] = [
   { id: "carne-segurado-especial", name: "Carnê de Contribuição como Segurado Especial" },
   { id: "certidao-itr", name: "ITR" },
   { id: "escritura-publica", name: "Escritura Pública" },
-  { id: "imposto-exploracao-agricola", name: "Comprovante de Recolhimento do Imposto Exploração Agrícola" },
+  { id: "documento-terra", name: "Documento da Terra" },
+  { id: "documento-proprietario-terra", name: "Documento do Proprietário da Terra" },
+  { id: "documento-arrendatario-terra", name: "Documento do Arrendatário da Terra" },
+  { id: "caf-dap", name: "CAF ou DAP" },
+  { id: "frentes-produtivas", name: "Programa de Frentes Produtivas" },
   { id: "matricula-propriedade", name: "Matrícula de Propriedade Rural" },
   { id: "certidao-registro-imovel", name: "Certidão de Registro de Imóvel Rural" },
   { id: "escritura-propriedade", name: "Escritura de Propriedade Rural" },
