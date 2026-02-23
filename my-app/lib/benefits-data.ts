@@ -338,6 +338,19 @@ export const benefits: Benefit[] = [
       "Três Testemunhas (RG, CPF, Comprovante de Residência)",
       "Provas do Ocorrido (Fotos, Vídeos, Laudos Médicos, etc.)",
     ]
+  },
+  {
+    id: "ação-civil",
+    name: "Ação Civil",
+    documents: [
+      "RG e CPF (AUTOR)",
+      "Certidão de Nascimento ou Casamento (AUTOR)",
+      "Carteira de Trabalho Física ou Digital (AUTOR)",
+      "Comprovante de Residência",
+      "Dados do Réu (Nome, CPF, CNPJ, Endereço, etc.)",
+      "Provas do Direito Alegado (Fotos, Vídeos, Laudos Médicos, etc.)",
+      "Três Testemunhas (RG, CPF, Comprovante de Residência)",
+    ]
   }
 ];
 
